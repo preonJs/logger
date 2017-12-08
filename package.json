@@ -1,0 +1,23 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "description": "logger plugin for preonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preonJs/logger.git"
+  },
+  "author": "yeliex <yeliex@yeliex.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/preonJs/logger/issues"
+  },
+  "homepage": "https://github.com/preonJs/logger#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.57",
+    "typescript": "^2.6.2"
+  }
+}

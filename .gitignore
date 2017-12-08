@@ -1,0 +1,12 @@
+.idea/
+.vscode/
+node_modules
+.lock
+!yarn.lock
+.DS_Store
+.log
+lib/
+npm-debug.log*
+yarn-error.log
+*~
+~*
