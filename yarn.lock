@@ -6,6 +6,111 @@
   version "8.0.57"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.57.tgz#e5d8b4dc112763e35cfc51988f4f38da3c486d99"
 
+"@yeliex/jsdoc-theme@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@yeliex/jsdoc-theme/-/jsdoc-theme-1.0.1.tgz#6d3546d7f3fa5e5eb9ff281e089060a7601924cc"
+
+babylon@7.0.0-beta.19:
+  version "7.0.0-beta.19"
+  resolved "http://registry.npm.taobao.org/babylon/download/babylon-7.0.0-beta.19.tgz#e928c7e807e970e0536b078ab3e0c48f9e052503"
+
+bluebird@~3.5.0:
+  version "3.5.1"
+  resolved "http://registry.npm.taobao.org/bluebird/download/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+
+catharsis@~0.8.9:
+  version "0.8.9"
+  resolved "http://registry.npm.taobao.org/catharsis/download/catharsis-0.8.9.tgz#98cc890ca652dd2ef0e70b37925310ff9e90fc8b"
+  dependencies:
+    underscore-contrib "~0.3.0"
+
+colors@^1.1.2:
+  version "1.1.2"
+  resolved "http://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
+
+escape-string-regexp@~1.0.5:
+  version "1.0.5"
+  resolved "http://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
+
+graceful-fs@^4.1.9:
+  version "4.1.11"
+  resolved "http://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+js2xmlparser@~3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.taobao.org/js2xmlparser/download/js2xmlparser-3.0.0.tgz#3fb60eaa089c5440f9319f51760ccd07e2499733"
+  dependencies:
+    xmlcreate "^1.0.1"
+
+jsdoc@^3.5.5:
+  version "3.5.5"
+  resolved "http://registry.npm.taobao.org/jsdoc/download/jsdoc-3.5.5.tgz#484521b126e81904d632ff83ec9aaa096708fa4d"
+  dependencies:
+    babylon "7.0.0-beta.19"
+    bluebird "~3.5.0"
+    catharsis "~0.8.9"
+    escape-string-regexp "~1.0.5"
+    js2xmlparser "~3.0.0"
+    klaw "~2.0.0"
+    marked "~0.3.6"
+    mkdirp "~0.5.1"
+    requizzle "~0.2.1"
+    strip-json-comments "~2.0.1"
+    taffydb "2.6.2"
+    underscore "~1.8.3"
+
+klaw@~2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/klaw/download/klaw-2.0.0.tgz#59c128e0dc5ce410201151194eeb9cbf858650f6"
+  dependencies:
+    graceful-fs "^4.1.9"
+
+marked@~0.3.6:
+  version "0.3.7"
+  resolved "http://registry.npm.taobao.org/marked/download/marked-0.3.7.tgz#80ef3bbf1bd00d1c9cfebe42ba1b8c85da258d0d"
+
+minimist@0.0.8:
+  version "0.0.8"
+  resolved "http://registry.npm.taobao.org/minimist/download/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+
+mkdirp@~0.5.1:
+  version "0.5.1"
+  resolved "http://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
+  dependencies:
+    minimist "0.0.8"
+
+requizzle@~0.2.1:
+  version "0.2.1"
+  resolved "http://registry.npm.taobao.org/requizzle/download/requizzle-0.2.1.tgz#6943c3530c4d9a7e46f1cddd51c158fc670cdbde"
+  dependencies:
+    underscore "~1.6.0"
+
+strip-json-comments@~2.0.1:
+  version "2.0.1"
+  resolved "http://registry.npm.taobao.org/strip-json-comments/download/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
+
+taffydb@2.6.2:
+  version "2.6.2"
+  resolved "http://registry.npm.taobao.org/taffydb/download/taffydb-2.6.2.tgz#7cbcb64b5a141b6a2efc2c5d2c67b4e150b2a268"
+
 typescript@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
+
+underscore-contrib@~0.3.0:
+  version "0.3.0"
+  resolved "http://registry.npm.taobao.org/underscore-contrib/download/underscore-contrib-0.3.0.tgz#665b66c24783f8fa2b18c9f8cbb0e2c7d48c26c7"
+  dependencies:
+    underscore "1.6.0"
+
+underscore@1.6.0, underscore@~1.6.0:
+  version "1.6.0"
+  resolved "http://registry.npm.taobao.org/underscore/download/underscore-1.6.0.tgz#8b38b10cacdef63337b8b24e4ff86d45aea529a8"
+
+underscore@~1.8.3:
+  version "1.8.3"
+  resolved "http://registry.npm.taobao.org/underscore/download/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
+
+xmlcreate@^1.0.1:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/xmlcreate/download/xmlcreate-1.0.2.tgz#fa6bf762a60a413fb3dd8f4b03c5b269238d308f"
