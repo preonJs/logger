@@ -1,0 +1,19 @@
+{
+  "opts": {
+    "destination": "./docs",
+    "recurse": true,
+    "readme": "./readme.md",
+    "template": "./node_modules/@yeliex/jsdoc-theme"
+  },
+  "source": {
+    "include": "./lib",
+    "includePattern": ".+\\.js(doc)?$"
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": true,
+    "useLongnameInNav": false,
+    "showInheritedInNav": true
+  }
+}

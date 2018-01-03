@@ -18,6 +18,11 @@
   "homepage": "https://github.com/preonJs/logger#readme",
   "devDependencies": {
     "@types/node": "^8.0.57",
+    "jsdoc": "^3.5.5",
     "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@yeliex/jsdoc-theme": "^1.0.1",
+    "colors": "^1.1.2"
   }
 }
